@@ -116,6 +116,7 @@
         "Friday", "Saturday", "Sunday", "Asynchronous"
     ),
     hide-empty-weekdays: false,
+    hide-event-times: false,
     time-prefix: "",
     time-suffix: "",
     am-pm-format: false,
@@ -358,7 +359,7 @@
 
             // Shows start and end times only on non async days and places them
             // either in their own lines or not depending on available height.
-            let content = if async-day {
+            let content = if async-day or hide-event-times {
                 [#content]
             } else if rownum < 12 {
                 [#start #content #end]
