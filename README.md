@@ -104,6 +104,8 @@ Styling parameters:
 - `hide-empty-weekdays` (default `false`): Call with `true` to exclude all
   empty weekdays from the timetable. Use this to have the timetable only show
   days that you defined events for.
+- `hide-event-hours` (default `false`): Call with `true` to hide the start and
+  end times inside event cells. Only the event content will be displayed.
 - `time-prefix` (default `""`): Optionally set a prefix to print infront of the
   time indications.
     - `time-suffix` (default `""`): A suffix option for time indications is
