@@ -3,7 +3,7 @@ Draw and style precise time tables with ease.
 
 ## Example
 ```typst
-#import "@preview/timble:1.3.0": *
+#import "@preview/timble:1.4.0": *
 #set page(paper: "a4", margin: 1cm, flipped: true)
 
 #timetable(title: "WiSe 25/26", font: "Liberation Sans", base-font-size: 13pt,
@@ -35,7 +35,7 @@ Draw and style precise time tables with ease.
 ![Example output of timble](./example/example.png)
 
 ## Quick overview
-- Import via `#import "@preview/timble:1.3.0"`.
+- Import via `#import "@preview/timble:1.4.0"`.
 - Draw precise timetables with `#timetable()`:
     - Define your schedule by setting the parameters `monday` through `sunday`
       (with an option for `asynchronous` as well).
@@ -57,7 +57,7 @@ Draw and style precise time tables with ease.
 
 ## Usage
 ### Import
-`#import "@preview/timble:1.3.0": *`
+`#import "@preview/timble:1.4.0": *`
 
 ### Functionality
 
@@ -150,7 +150,7 @@ If you want to use the package locally, you have two options:
    [official documentation](https://github.com/typst/packages?tab=readme-ov-file#local-packages)
    for where to find and create a namespace. Then simply import the package
    from that namespace. The following example assumes a namespace named `local`
-   to be used: `#import "@local/timble:1.3.0": *`
+   to be used: `#import "@local/timble:1.4.0": *`
 
    This makes the package available anywhere on your system via the namespace
    import.

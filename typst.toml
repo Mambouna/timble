@@ -1,6 +1,6 @@
 [package]
 name = "timble"
-version = "1.3.0"
+version = "1.4.0"
 entrypoint = "timble.typ"
 authors = ["@Mambouna"]
 license = "MPL-2.0"
